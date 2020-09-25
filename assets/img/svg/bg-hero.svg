@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1997.822" height="2263.897" viewBox="0 0 1997.822 2263.897">
+  <defs>
+    <filter id="Shape_1_copy" x="51.493" y="46.24" width="1815.533" height="2217.657" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3.178" dy="6.237" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="27" result="blur"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Shape_1_copy_2" x="182.289" y="0" width="1815.533" height="2217.656" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3.178" dy="6.237" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="27" result="blur-2"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-1632.986 604.911)">
+    <path id="Shape_1" data-name="Shape 1" d="M1717.852-439.352s-352.3,845.1,378.7,1231.429c656.961,347.2,673.674,824.321,673.674,824.321L3169.594,603.387l117.2-406.73Z" transform="translate(0)" fill="#14cb83"/>
+    <g transform="matrix(1, 0, 0, 1, 1632.99, -604.91)" filter="url(#Shape_1_copy)">
+      <path id="Shape_1_copy-2" data-name="Shape 1 copy" d="M1853.527-483.908S1501.25,361.2,2232.121,747.479c656.84,347.153,673.531,824.27,673.531,824.27L3304.99,558.732,3422.191,152Z" transform="translate(-1632.99 604.91)" fill="#0ed084" opacity="0.412"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1632.99, -604.91)" filter="url(#Shape_1_copy_2)">
+      <path id="Shape_1_copy_2-2" data-name="Shape 1 copy 2" d="M1984.323-530.148S1632.046,314.959,2362.916,701.238c656.84,347.153,673.531,824.27,673.531,824.27L3435.786,512.491l117.2-406.729Z" transform="translate(-1632.99 604.91)" fill="#00d984" opacity="0.4"/>
+    </g>
+  </g>
+</svg>

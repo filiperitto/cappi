@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="393" height="360" viewBox="0 0 393 360">
+  <defs>
+    <filter id="Rectangle" x="0" y="0" width="393" height="360" filterUnits="userSpaceOnUse">
+      <feOffset dy="26" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur"/>
+      <feFlood flood-color="#13151b" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Lista_CPF_Negativado_Copy_8" data-name="Lista CPF Negativado Copy 8" transform="translate(52.5 26.5)">
+    <g transform="matrix(1, 0, 0, 1, -52.5, -26.5)" filter="url(#Rectangle)">
+      <rect id="Rectangle-2" data-name="Rectangle" width="288" height="255" transform="translate(52.5 26.5)" fill="#fff"/>
+    </g>
+    <path id="Combined_Shape" data-name="Combined Shape" d="M5.308,11.522.323,6.572.3,6.551.254,6.5a.887.887,0,0,1,0-1.243L.3,5.213l0,0L5.308.242a.812.812,0,0,1,1.157,0l.047.047a.887.887,0,0,1,0,1.243L2.132,5.882l4.381,4.349a.888.888,0,0,1,0,1.243l-.047.047a.812.812,0,0,1-1.157,0Z" transform="translate(269.582 27.539) rotate(90)" fill="#5c5c5c"/>
+    <text id="Razão_social" data-name="Razão social" transform="translate(17.48 26.256)" fill="#7f7f7f" font-size="12" font-family="Avenir-Medium, Avenir" font-weight="500"><tspan x="0" y="0">Razão social</tspan></text>
+    <text id="TELEFÔNICA_BRASIL_S." data-name="TELEFÔNICA BRASIL S." transform="translate(17.69 46.638)" fill="#5c5c5c" font-size="14" font-family="Avenir-Black, Avenir" font-weight="800"><tspan x="0" y="0">Nestlé</tspan></text>
+    <text id="Call_to_Action" data-name="Call to Action" transform="translate(26.1 88.106)" fill="#5c5c5c" font-size="20" font-family="Avenir-Black, Avenir" font-weight="800"><tspan x="63.31" y="20">Opa, Beleza</tspan></text>
+    <text id="Lorem_ipsum_dolor_si" data-name="Lorem ipsum dolor si" transform="translate(41.4 120.299)" fill="#5c5c5c" font-size="14" font-family="Avenir-Medium, Avenir" font-weight="500"><tspan x="4.383" y="14">Para você ver todo o conteúdo </tspan><tspan x="5.713" y="33">clique no botão e assine agora </tspan></text>
+    <rect id="Rectangle-3" data-name="Rectangle" width="136" height="42.359" rx="21.179" transform="translate(79 166.047)" fill="#00d984"/>
+    <text id="CALL_TO_ACTION-2" data-name="CALL TO ACTION" transform="translate(87.3 178.621)" fill="#fff" font-size="12" font-family="Avenir-Black, Avenir" font-weight="800"><tspan x="33.966" y="12">ASSINAR</tspan></text>
+  </g>
+</svg>

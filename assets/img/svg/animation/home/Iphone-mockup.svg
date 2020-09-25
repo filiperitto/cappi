@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="647.001" height="1098" viewBox="0 0 647.001 1098">
+  <defs>
+    <filter id="Rounded_Rectangle_2_copy_6" x="0" y="0" width="647.001" height="1098" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="32.5" result="blur"/>
+      <feFlood flood-opacity="0.22"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Iphone_mockup" data-name="Iphone mockup" transform="translate(3269.5 -279.5)">
+    <g transform="matrix(1, 0, 0, 1, -3269.5, 279.5)" filter="url(#Rounded_Rectangle_2_copy_6)">
+      <path id="Rounded_Rectangle_2_copy_6-2" data-name="Rounded Rectangle 2 copy 6" d="M154,999a75,75,0,0,1-75-75V427.973a4.5,4.5,0,0,1-4-4.473v-18a4.5,4.5,0,0,1,4-4.473v-.055a4.5,4.5,0,0,1-4-4.473v-18a4.5,4.5,0,0,1,4-4.473V363.972a4.5,4.5,0,0,1-4-4.473v-57a4.5,4.5,0,0,1,4-4.473V269.973a4.5,4.5,0,0,1-4-4.473v-34a4.5,4.5,0,0,1,4-4.473V171a75,75,0,0,1,75-75H447a75,75,0,0,1,75,75V292h.5a4.5,4.5,0,0,1,4.5,4.5v73a4.5,4.5,0,0,1-4.5,4.5H522v18h.5a4.5,4.5,0,0,1,4.5,4.5v32a4.5,4.5,0,0,1-4.5,4.5h0a4.5,4.5,0,0,1,4.5,4.5v31a4.5,4.5,0,0,1-4.5,4.5H522V924a75,75,0,0,1-75,75Z" transform="translate(22.5 -18.5)" fill="#fff"/>
+    </g>
+    <path id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" d="M217,98l140,3c18.5,0,54-6,54,12.5A33.5,33.5,0,0,1,377.5,147h-152A33.5,33.5,0,0,1,192,113.5C192,95,198.5,98,217,98Z" transform="translate(-3247 261)" fill="#fff"/>
+  </g>
+</svg>

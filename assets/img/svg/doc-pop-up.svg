@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="425" height="329" viewBox="0 0 425 329">
+  <defs>
+    <filter id="Rectangle" x="0" y="0" width="425" height="179" filterUnits="userSpaceOnUse">
+      <feOffset dy="26" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur"/>
+      <feFlood flood-color="#13151b" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle-2" x="0" y="75" width="425" height="179" filterUnits="userSpaceOnUse">
+      <feOffset dy="26" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur-2"/>
+      <feFlood flood-color="#13151b" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle-3" x="0" y="150" width="425" height="179" filterUnits="userSpaceOnUse">
+      <feOffset dy="26" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur-3"/>
+      <feFlood flood-color="#13151b" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_14" data-name="Group 14" transform="translate(-4005.5 -4578)">
+    <g id="Lista_CPF_Negativado" data-name="Lista CPF Negativado" transform="translate(4058 4604.5)">
+      <g transform="matrix(1, 0, 0, 1, -52.5, -26.5)" filter="url(#Rectangle)">
+        <path id="Rectangle-4" data-name="Rectangle" d="M3,0H317a3,3,0,0,1,3,3V74a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3A3,3,0,0,1,3,0Z" transform="translate(52.5 26.5)" fill="#fff"/>
+      </g>
+      <path id="Combined_Shape" data-name="Combined Shape" d="M5.95,13.021.293,7.364a1,1,0,0,1,0-1.414L5.95.293A1,1,0,0,1,7.364,1.707l-4.95,4.95,4.95,4.95A1,1,0,0,1,5.95,13.021Z" transform="translate(286.172 40.485) rotate(-90)" fill="#5c5c5c"/>
+      <text id="Razão_social" data-name="Razão social" transform="translate(20 29)" fill="#7f7f7f" font-size="12" font-family="Avenir-Medium, Avenir" font-weight="500"><tspan x="0" y="0">Razão social</tspan></text>
+      <text id="TELEFÔNICA_BRASIL_S." data-name="TELEFÔNICA BRASIL S." transform="translate(20 53)" fill="#5c5c5c" font-size="14" font-family="Avenir-Black, Avenir" font-weight="800"><tspan x="0" y="0">Telefônica Brasil S.A. - vivo</tspan></text>
+    </g>
+    <g id="Lista_CPF_Negativado_Copy" data-name="Lista CPF Negativado Copy" transform="translate(4058 4679.5)">
+      <g transform="matrix(1, 0, 0, 1, -52.5, -101.5)" filter="url(#Rectangle-2)">
+        <rect id="Rectangle-5" data-name="Rectangle" width="320" height="74" transform="translate(52.5 101.5)" fill="#fff"/>
+      </g>
+      <path id="Combined_Shape-2" data-name="Combined Shape" d="M5.95,13.021.293,7.364a1,1,0,0,1,0-1.414L5.95.293A1,1,0,0,1,7.364,1.707l-4.95,4.95,4.95,4.95A1,1,0,0,1,5.95,13.021Z" transform="translate(286.172 40.485) rotate(-90)" fill="#5c5c5c"/>
+      <text id="Razão_social-2" data-name="Razão social" transform="translate(20 29)" fill="#7f7f7f" font-size="12" font-family="Avenir-Medium, Avenir" font-weight="500"><tspan x="0" y="0">Razão social</tspan></text>
+      <text id="TELEFÔNICA_BRASIL_S.-2" data-name="TELEFÔNICA BRASIL S." transform="translate(20 53)" fill="#5c5c5c" font-size="14" font-family="Avenir-Black, Avenir" font-weight="800"><tspan x="0" y="0">Nestlé</tspan></text>
+    </g>
+    <g id="Lista_CPF_Negativado_Copy_5" data-name="Lista CPF Negativado Copy 5" transform="translate(4058 4754.5)">
+      <g transform="matrix(1, 0, 0, 1, -52.5, -176.5)" filter="url(#Rectangle-3)">
+        <path id="Rectangle-6" data-name="Rectangle" d="M0,0H320a0,0,0,0,1,0,0V71a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V0A0,0,0,0,1,0,0Z" transform="translate(52.5 176.5)" fill="#fff"/>
+      </g>
+      <path id="Combined_Shape-3" data-name="Combined Shape" d="M5.95,13.021.293,7.364a1,1,0,0,1,0-1.414L5.95.293A1,1,0,0,1,7.364,1.707l-4.95,4.95,4.95,4.95A1,1,0,0,1,5.95,13.021Z" transform="translate(286.172 40.485) rotate(-90)" fill="#5c5c5c"/>
+      <text id="Razão_social-3" data-name="Razão social" transform="translate(20 29)" fill="#7f7f7f" font-size="12" font-family="Avenir-Medium, Avenir" font-weight="500"><tspan x="0" y="0">Razão social</tspan></text>
+      <text id="TELEFÔNICA_BRASIL_S.-3" data-name="TELEFÔNICA BRASIL S." transform="translate(20 53)" fill="#5c5c5c" font-size="14" font-family="Avenir-Black, Avenir" font-weight="800"><tspan x="0" y="0">Johnson &amp; Johnson</tspan></text>
+    </g>
+  </g>
+</svg>

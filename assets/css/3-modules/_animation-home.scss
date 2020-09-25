@@ -1,0 +1,192 @@
+.animation-cont {
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    .notch{
+        width: 115px;
+        height: 20px;
+        background: #fff;
+        position: absolute;
+        top: 0;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        z-index: 5;
+        border-radius: 0 0 65px 65px;
+    }
+
+    &.home {
+        .canvas-animation {
+            width: 215px;
+            height: 462px;
+            background: #ccc;
+            position: absolute;
+            border-radius: 25px;
+            z-index: 1;
+            margin: 0 auto;
+            top: 55px;
+            left: 0;
+            right: 0;
+            overflow: hidden;
+
+            .home-bg {
+                width: 100%;
+                height: auto;
+                z-index: 1;
+                position: absolute;
+                top: 0;
+            }
+
+            .cpf-box {
+                width: 93px;
+                height: 48px;
+                background: #01df7c;
+                z-index: 2;
+                position: absolute;
+                top: 55px;
+                border-radius: 3px;
+                left: 12px;
+                animation: bg-num 12s infinite;
+                
+
+                @keyframes bg-num {
+                    0% {
+                        background: #01df7c;
+                    }
+                    
+                    29%{
+                        background: #01df7c;
+                    }
+                    30%{
+                        background: #fd5d5d;
+                    }
+                    89%{
+                        background: #fd5d5d;
+                    }
+                    90%{
+                        background: #01df7c;
+                    }
+                    
+                }
+
+                span {
+                    font-size: 7px;
+                    color: #fff;
+                    font-weight: bold;
+                    margin-left: 10px;
+                    display: block;
+                    margin-top: 4px;
+
+                    &.num {
+                        position: relative;
+                        margin-top: -7px;
+                        font-family: "Avenir", sans-serif;
+                        font-size: 15px;
+
+                        &::before {
+                            content: '0';
+                            animation: num 12s infinite;
+
+                            @keyframes num {
+                                0% {
+                                    content: '0';
+                                }
+                                
+                                29%{
+                                    content: '0';
+                                }
+                                30%{
+                                    content: '1';
+                                }
+                                
+                                89%{
+                                    content: '1';
+                                }
+                                90%{
+                                    content: '0';
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .noti-top {
+                width: 100%;
+                height: auto;
+                position: absolute;
+                top: -118px;
+                z-index: 3;
+                animation: noti-top 12s infinite ease;
+
+                @keyframes noti-top {
+                    0% {
+                        top: -118px;
+                    }
+
+                    10% {
+                        top: 0;
+                    }
+                    
+                    25%{
+                        top: 0;
+                    }
+                    
+                    35%{
+                        top: -118px;
+                    }
+
+                }
+            }
+
+            .noti-bot {
+                width: 100%;
+                height: auto;
+                position: absolute;
+                bottom: -138px;
+                z-index: 3;
+                animation: noti-bot 12s infinite;
+
+                @keyframes noti-bot {
+                    0% {
+                        bottom: -138px;
+                        opacity: 0;
+                        transform: scale(0.5);
+                    }
+
+                    35% {
+                        bottom: -138px;
+                        transform: scale(0.5);
+                    }
+
+                    45% {
+                        opacity: 1;
+                        bottom: 50px;
+                        transform: scale(1);
+                    }
+                    
+                    75%{
+                        opacity: 1;
+                        bottom: 50px;
+                        transform: scale(1);
+                    }
+                    
+                    85%{
+                        bottom: -138px;
+                        opacity: 0;
+                        transform: scale(0.5);
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    .iphone-mockup {
+        width: 100%;
+        height: auto;
+        z-index: 0;
+    }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="257.176" height="62" viewBox="0 0 257.176 62">
+  <g id="chat-1" transform="translate(-28.324 -180)">
+    <rect id="Rectangle_Copy_2" data-name="Rectangle Copy 2" width="246" height="62" rx="21" transform="translate(34.5 180)" fill="#fff"/>
+    <text id="Qual_o_endereço_você" data-name="Qual o endereço você" transform="translate(49.5 191)" fill="#5c5c5c" font-size="14" font-family="Avenir-Medium, Avenir" font-weight="500"><tspan x="0" y="14">Qual o endereço você gostaria de </tspan><tspan x="0" y="34.5">consultar?</tspan></text>
+    <path id="Rectangle_Copy" data-name="Rectangle Copy" d="M0,0H-19.172a2,2,0,0,0-1.414,3.414L0,24Z" transform="translate(49.5 180)" fill="#fff"/>
+  </g>
+</svg>

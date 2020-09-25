@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="370.001" height="248.625" viewBox="0 0 370.001 248.625">
+  <defs>
+    <filter id="Union_2" x="0" y="0" width="370.001" height="248.625" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8.5" result="blur"/>
+      <feFlood flood-opacity="0.341"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="noti-bot" transform="translate(25.5 22.5)">
+    <g transform="matrix(1, 0, 0, 1, -25.5, -22.5)" filter="url(#Union_2)">
+      <path id="Union_2-2" data-name="Union 2" d="M-12753.768,23983.922v-24.232H-12892a21,21,0,0,1-21.006-21v-127.52a21.005,21.005,0,0,1,21.006-21.006h277a21,21,0,0,1,21,21.006v127.52a21,21,0,0,1-21,21h-110.454l-22.749,26.961a2.966,2.966,0,0,1-2.281,1.141A3.583,3.583,0,0,1-12753.768,23983.922Z" transform="translate(12938.5 -23767.67)" fill="#fff"/>
+    </g>
+    <text id="Seu_feedback_é_muito" data-name="Seu feedback é muito" transform="translate(24.003 20.42)" fill="#5c5c5c" font-size="14" font-family="Avenir-Medium, Avenir" font-weight="500"><tspan x="0" y="14">Lorem ipsum dolor sit amet, consectetur </tspan><tspan x="0" y="34.5">adipiscing elit, sed do eiusmod tempor </tspan><tspan x="0" y="55">incididunt ut labore et dolore magna aliqua. </tspan><tspan x="0" y="75.5">Ut enim ad minim veniam, quis nostrud </tspan><tspan x="0" y="96">exercitation ullamco laboris nisi ut aliquip ex </tspan><tspan x="0" y="116.5">ea commodo consequat. Duis aute irure </tspan></text>
+  </g>
+</svg>
