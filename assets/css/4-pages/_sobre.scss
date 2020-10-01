@@ -1,0 +1,393 @@
+.page-sobre{
+    .cl-effect-13 a:hover::before,
+    .cl-effect-13 a:focus::before {
+        color: $green;
+        text-shadow: 10px 0 $green, 20px 0 $green, 30px 0 $green, -10px 0 $green, -20px 0 $green, -30px 0 $green;
+    }
+    header{
+        nav{
+            ul{
+                li{
+                    a{
+                        color: $green;
+                        @include respond-to-max(1020){
+                            color: $white;
+                        }
+                        &:hover{
+                            color: $green;
+                            @include respond-to-max(1020){
+                                color: $white;
+                            }
+                        }
+                        &.btn{
+                            background: $green;
+                            color: $white;
+                            @include respond-to-max(1020){
+                                background: $white;
+                                color: $green;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.main-sobre{
+    padding-top: 290px;
+    position: relative;
+    @include respond-to-max(1000){
+        padding-top: 240px;
+    }
+    @include respond-to-max(750){
+        padding-top: 190px;
+    }
+    section{
+        background: transparent;
+        p{
+            font-size: 16px;
+            line-height: 29px;
+            color: #4B4B4B;
+            @include respond-to-max(1000){
+                font-size: 14px;
+                line-height: 25px;
+            }
+        }
+    }
+
+    // Global Vectors
+    .vec-top-left{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        z-index: -3;
+        transform: translate(-100%, 0);
+    }
+    .top-ball{
+        position: absolute;
+        top: -8%;
+        right: -8%;
+        z-index: -3;
+        @include respond-to-max(750){
+            top: -285px;
+            right: -260px;
+        }
+    }
+    .waves-tl{
+        position: absolute;
+        top: -60px;
+        left: 50%;
+        z-index: 0;
+        -webkit-transform: translate(-49.1%, 0);
+        transform: translate(-52.3%, 0);
+        @include respond-to-max(750){
+            left: 20px;
+        }
+    }
+    .dash-middle{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        z-index: -3;
+        transform: translate(-50%, 0) rotate(25deg);
+    }
+    .big-ball{
+        position: absolute;
+        top: 35%;
+        right: -10%;
+        z-index: -3;
+        //transform: translate(-100%, 0);
+        @include respond-to-max(750){
+            right: -330px;
+        }
+    }
+    .little-ball{
+        position: absolute;
+        top: 63%;
+        right: 13%;
+        z-index: -3;
+        //transform: translate(-100%, 0);
+        @include respond-to-max(750){
+            top: 54%;
+            right: auto;
+            left: -120px;
+        }
+    }
+    .arrowdown-tl{
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        z-index: 1;
+        transform: translate(-50%, 0);
+        @include respond-to-max(750){
+            left: -9px;
+            transform: none;
+        }
+    }
+    // Global Vectors (End)
+    #blog{
+        .loop-blog{
+            .container-blog{
+                .thumb-box{
+                    .date{
+                        color: $green;
+                        &::before{
+                            background: transparent;
+                            border: 4px solid $green;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.timeline{
+    width: 100%;
+    position: relative;
+    .wrap{
+        position: relative;
+        height: auto;
+    }
+    .theline{
+        width: 6px;
+        height: 100%;
+        background: $green;
+        position: absolute;
+        top: 55px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        border-radius: 5px;
+        @include respond-to-max(750){
+            left: 17px;
+            transform: none;
+        }
+    }
+    .chat-ballon-container{
+        width: 100%;
+        margin-bottom: 100px;
+        article{
+            //background: #ccc;
+            width: 100%;
+            height: auto;
+            padding: 0;
+            display: flex;
+            position: relative;
+            &:nth-child(even){
+                flex-direction: row-reverse;
+                .boxtext-wrap{
+                    padding: 25px 0 25px 40px;
+                    @include respond-to-max(750){
+                        padding: 35px 0 35px 40px;
+                    }
+                    &::after{
+                        left: -3px;
+                        right: auto;
+                    }
+                    &::before{
+                        left: -8px;
+                        right: auto;
+                    }
+                    .card{
+                        svg{
+                            left: -17px;
+                            right: auto;
+                            transform: translate(0, -50%) rotate(180deg);
+                        }
+                    }
+                }
+            }
+            &:nth-child(3){
+                padding-top: 100px;
+                @include respond-to-max(750){
+                    padding-top: 0;
+                }
+            }
+            .boxtext-wrap,
+            .negative-space{
+                width: 50%;
+                height: auto;
+                @include respond-to-max(750){
+                    width: 100%;
+                }
+            }
+            .negative-space{
+                @include respond-to-max(750){
+                    display: none;
+                }
+            }
+            .boxtext-wrap{
+                padding: 0px 40px 0px 0;
+                position: relative;
+                @include respond-to-max(750){
+                    padding: 35px 0 35px 40px;
+                }
+                &::after{
+                    content: '';
+                    color: transparent;
+                    width: 6px;
+                    height: 32px;
+                    background: $white;
+                    position: absolute;
+                    right: -3px;
+                    top: 50%;
+                    transform: translate(0, -50%);
+                    border-radius: 0;
+                    z-index: 1;
+                    @include respond-to-max(750){
+                        left: -3px;
+                        right: auto;
+                    }
+                }
+                &::before{
+                    content: '';
+                    color: transparent;
+                    width: 16px;
+                    height: 16px;
+                    background: $green;
+                    position: absolute;
+                    right: -8px;
+                    top: 50%;
+                    transform: translate(0, -50%);
+                    border-radius: 50%;
+                    z-index: 2;
+                    @include respond-to-max(750){
+                        left: -8px;
+                        right: auto;
+                    }
+                }
+                .card{
+                    background: $white;
+                    border-radius: 10px;
+                    padding: 30px 40px;
+                    position: relative;
+                    box-shadow: 0 12px 50px 0 rgba(#000000, 0.13);
+                    @include respond-to-max(750){
+                        padding: 25px;
+                    }
+                    svg{
+                        position: absolute;
+                        right: -17px;
+                        width: 20px;
+                        top: 50%;
+                        transform: translate(0, -50%);
+                        @include respond-to-max(750){
+                            left: -17px;
+                            right: auto;
+                            transform: translate(0, -50%) rotate(180deg);
+                        }
+                    }
+                }
+                p{
+                    margin: 0;
+                }
+
+            }
+            &.first-card{
+                .boxtext-wrap{
+                    .logo-card{
+                        width: 130px;
+                        height: auto;
+                        position: absolute;
+                        left: 50%;
+                        top: -60px;
+                        transform: translate(-65%, 0);
+                        transition: all .4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                        &:hover{
+                            top: -90px;
+                        }
+                        @include respond-to-max(750){
+                            transform: translate(-50%, 0);
+                        }
+                    }
+                }
+                .card{
+                    p{
+                        font-size: 34px;
+                        font-weight: bold;
+                        line-height: 50px;
+                        @include respond-to-max(1000){
+                            font-size: 22px;
+                            line-height: 30px;
+                        }
+                        strong{
+                            color: $green;
+                        }
+                    }
+                }
+            }
+    
+            &.green-card{
+                &.fg-c{
+                    margin-top: -80px;
+                    @include respond-to-max(750){
+                        margin-top: 0;
+                    }
+                }
+                .boxtext-wrap{
+                    .double-plus{
+                        position: absolute;
+                        bottom: -40px;
+                        left: -40px;
+                        @include respond-to-max(750){
+                            bottom: 25px;
+                            left: -15px;
+                        }
+                    }
+                    .card{
+                        background: $green;
+                        p{
+                            color: $white;
+                        }
+                        svg{
+                            path{
+                                fill: $green;
+                            }
+                        }
+                    }
+                }                
+                
+            }
+
+            &.triagles-card{
+                .boxtext-wrap{
+                    position: relative;
+                    .triagle{
+                        position: absolute;
+                        top: -165px;
+                        z-index: 1;
+                        left: 90px;
+                        @include respond-to-max(750){
+                            left: auto;
+                            right: 0;
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+            
+            &.bubbles-card{
+                .boxtext-wrap{
+                    .bubbles{
+                        position: absolute;
+                        top: -30px;
+                        left: -30px;
+                    }
+                }
+            }
+
+            &.line-card{
+                .boxtext-wrap{
+                    .line{
+                        position: absolute;
+                        right: -30px;
+                        bottom: 30px;
+                        z-index: 1;
+                    }
+                }
+            }
+        }
+
+        
+    }
+}

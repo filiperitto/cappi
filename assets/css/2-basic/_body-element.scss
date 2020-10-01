@@ -65,6 +65,9 @@ body {
     height: auto;
     margin: 0 auto;
     padding: 0 10px;
+    @include respond-to-max(1050){
+        padding: 0 30px;
+    }
     @include respond-to-max(700){
         padding: 0 20px;
     }

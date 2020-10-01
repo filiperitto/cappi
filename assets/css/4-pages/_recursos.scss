@@ -39,7 +39,7 @@
     @include respond-to-max(1000){
         padding-top: 111px;
     }
-    @include respond-to-max(740){
+    @include respond-to-max(750){
         padding-top: 81px;
     }
     .title{
@@ -64,7 +64,7 @@
                 bottom: 10px;
                 right: -25px;
     
-                @include respond-to-max(700) {
+                @include respond-to-max(750) {
                     width: 10px;
                     height: 10px;
                 }
@@ -93,6 +93,12 @@
                 right: 40%;
                 font-size: 320px;
             }
+            @include respond-to-max(1010){
+                left: -10%;
+                right: auto;
+                top: auto;
+                bottom: -75%;
+            }
         }
     }
     section{
@@ -100,13 +106,13 @@
         .wrap{
             display: flex;
             position: relative;
-            @include respond-to-max(760){
+            @include respond-to-max(750){
                 flex-direction: column;
             }
         }
         .column-50{
             width: 50%;
-            @include respond-to-max(760){
+            @include respond-to-max(750){
                 width: 100%;
             }
             .text-box{
@@ -121,7 +127,7 @@
             }
             .parallax-box{
                 height: 100%;
-                @include respond-to-max(760){
+                @include respond-to-max(750){
                     height: 600px;
                     max-width: 355px;
                     margin: 0 auto;
@@ -134,7 +140,7 @@
             line-height: 29px;
             color: #4B4B4B;
             width: 75%;
-            @include respond-to-max(760){
+            @include respond-to-max(750){
                 width: 100%;
             }
         }
@@ -160,7 +166,7 @@
                 background: $green;
                 left: 0;
                 top: 0;
-                @include respond-to-max(760){
+                @include respond-to-max(750){
                     width: 100%;
                     height: 600px;
                 }
@@ -169,7 +175,7 @@
         &.bg-red{
             .wrap{
 
-                @include respond-to-max(760){
+                @include respond-to-max(750){
                     flex-direction: column-reverse;
                 }
             }
@@ -190,7 +196,7 @@
                 background: $red;
                 right: 0;
                 top: 0;
-                @include respond-to-max(760){
+                @include respond-to-max(750){
                     width: 100%;
                     height: 600px;
                 }
@@ -204,11 +210,25 @@
     margin-top: 0;
     transition: all .2s ease-in-out;
     background: $white;
-    @include respond-to-max(1000){
-        overflow-x: scroll;
-        .wrap{
-            width: 1120px;
+    
+    .scroll-box{
+        width: 100%;
+        height: auto;
+        @include respond-to-max(1000){
+            overflow-x: scroll;
+            .wrap{
+                width: 1120px;
+            }
         }
+    }
+    .gradiante-alpha{
+        width: 50px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: linear-gradient(0.25turn, rgba(#fff,0), rgba(#F6F6F6,0.8), rgba(#F6F6F6,0.8));
+        transition: all .3s ease-in-out;
     }
 
     &.active{
@@ -224,6 +244,15 @@
         
         ul{
             border: none;
+        }
+        
+        .gradiante-alpha{
+            width: 50px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: linear-gradient(0.25turn, rgba(#F6F6F6,0), rgba(#e6e6e6,0.8), rgba(#e6e6e6,0.8));
         }
     }
     ul{
@@ -291,14 +320,17 @@
         img{
             position: absolute;
             top: 0;
-            @include respond-to-max(760){
-                left: -33px;
+            @include respond-to-max(1010){
+                left: -55px;
             }
             &:last-child{
                 top: 85px;
                 left: 95px;
-                @include respond-to-max(760){
-                    left: 68px;
+                @include respond-to-max(1010){
+                    left: 35px;
+                }
+                @include respond-to-max(750){
+                    left: 58px;
                 }
             }
         }
@@ -313,11 +345,20 @@
             position: absolute;
             top: 0;
             right: 0;
+            @include respond-to-max(1010){
+                right: -40px;
+            }
+            @include respond-to-max(750){
+                right: 0;
+            }
             &:last-child{
                 top: 115px;
                 right: 165px;
                 max-width: 274px;
-                @include respond-to-max(760){
+                @include respond-to-max(1010){
+                    right: 80px;
+                }
+                @include respond-to-max(750){
                     right: 0;
                 }
             }
@@ -328,8 +369,8 @@
 #senhas{
     .title{
         span{
-            left: 108%;
-            top: 34%;
+            //left: 108%;
+            //top: 34%;
         }
     }
     .parallax-box{
@@ -343,8 +384,8 @@
                 top: 136px;
                 right: 165px;
                 max-width: 274px;
-                @include respond-to-max(760){
-                    right: 0;
+                @include respond-to-max(1010){
+                    right: -40px;
                 }
             }
         }
@@ -365,11 +406,20 @@
             position: absolute;
             top: 0;
             right: 0;
+            @include respond-to-max(1010){
+                right: -35px;
+            }
+            @include respond-to-max(750){
+                right: 0;
+            }
             &:last-child{
                 top: 155px;
                 right: 165px;
                 max-width: 274px;
-                @include respond-to-max(760){
+                @include respond-to-max(1010){
+                    right: 60px;
+                }
+                @include respond-to-max(750){
                     right: 0;
                 }
             }
@@ -380,7 +430,7 @@
 #telefone{
     .title{
         span{
-            left: 108%;
+            //left: 108%;
             top: 0%;
             right: auto;
         }
@@ -392,11 +442,17 @@
             position: absolute;
             top: -30px;
             left: 0;
+            @include respond-to-max(1010){
+                right: -20px;
+            }
             &:last-child{
                 top: 130px;
                 left: 165px;
                 max-width: 274px;
-                @include respond-to-max(760){
+                @include respond-to-max(1010){
+                    left: -20px;
+                }
+                @include respond-to-max(750){
                     left: 0;
                 }
             }
@@ -423,7 +479,11 @@
                 top: 150px;
                 left: 165px;
                 max-width: 274px;
-                @include respond-to-max(760){
+                @include respond-to-max(1010){
+                    left: auto;
+                    right: -10px;
+                }
+                @include respond-to-max(750){
                     left: 0;
                 }
             }
@@ -450,7 +510,7 @@
                 top: 155px;
                 right: 165px;
                 max-width: 274px;
-                @include respond-to-max(760){
+                @include respond-to-max(750){
                     right: 0;
                 }
             }
@@ -476,7 +536,11 @@
                 top: 160px;
                 left: 165px;
                 max-width: 274px;
-                @include respond-to-max(760){
+                @include respond-to-max(1010){
+                    top: 133px;
+                    left: 0;
+                }
+                @include respond-to-max(750){
                     left: 0;
                 }
             }
@@ -487,15 +551,18 @@
     background: #F1F1F1;
     .title{
         span{
-            left: 100%;
+            //left: 100%;
             top: 0;
             right: auto;
+            @include respond-to-max(1010){
+                left: 50%;
+            }
         }
     }
     .parallax-box{
         width: 100%;
         position: relative;
-        @include respond-to-max(760){
+        @include respond-to-max(750){
             height: 480px;
         }
         img{
@@ -520,9 +587,26 @@
                 position: absolute;
                 left: -25%;
                 top: 0;
+                @include respond-to-max(1100){
+                    left: -45%;
+                }
+                @include respond-to-max(1010){
+                    left: -14%;
+                }
+                @include respond-to-max(750){
+                    left: -800px;
+                }
                 &:last-child{
                     left: 66%;
-                    
+                    @include respond-to-max(1100){
+                        left: 103%;
+                    }
+                    @include respond-to-max(1010){
+                        left: 91%;
+                    }
+                    @include respond-to-max(750){
+                        left: 1040px;
+                    }
                 }
             }
         }
@@ -539,7 +623,7 @@
         }
     }
     .wrap{
-        @include respond-to-max(760){
+        @include respond-to-max(750){
             flex-direction: column-reverse;
         }
     }
@@ -550,14 +634,14 @@
             position: absolute;
             top: 0;
             right: 80px;
-            @include respond-to-max(760){
+            @include respond-to-max(750){
                 right: 0;
                 top: 0;
             }
             &:last-child{
                 top: 140px;
                 left: 0;
-                @include respond-to-max(760){
+                @include respond-to-max(750){
                     top: 125px;
                 }
             }

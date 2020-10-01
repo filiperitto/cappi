@@ -16,7 +16,7 @@
                 <ul>
                     <li class="cl-effect-13"><a href="index.php">Home</a></li>
                     <li class="cl-effect-13"><a href="recursos.php">Recurso</a></li>
-                    <li class="cl-effect-13"><a href="#">Sobre</a></li>
+                    <li class="cl-effect-13"><a href="sobre.php">Sobre</a></li>
                     <li><a href="#" class="btn">Download</a></li>
                 </ul>
             </nav>
