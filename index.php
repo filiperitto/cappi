@@ -1,10 +1,52 @@
-    <?php include'head.php'?>
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="pt-br">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Cappi</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="shortcut icon" href="./assets/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/img/favicon/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
 
     <body class="page-home">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <?php include'header.php'?>
+        
+
+        <header class="clearfix">
+                <div class="wrap">
+                    <a href="index.php" class="logo"><img src="./assets/img/svg/logo.svg">cappi</a>
+
+                    <div class="hamburger-container">
+                        <div id="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <nav>
+                        <ul>
+                            <li class="cl-effect-13"><a href="index.php">Home</a></li>
+                            <li class="cl-effect-13"><a href="recursos.php">Recurso</a></li>
+                            <li class="cl-effect-13"><a href="sobre.php">Sobre</a></li>
+                            <li><a href="#" class="btn">Download</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
 
         <div class="main">
             <svg class="bg-hero" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"

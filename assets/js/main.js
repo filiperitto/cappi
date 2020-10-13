@@ -1,5 +1,6 @@
 AOS.init({});
 $(document).ready(function () {
+    
     // MAIN MENU ANIMATION
     // Menu change
     $(this).scrollTop(0); // importante <--
