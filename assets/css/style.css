@@ -5821,6 +5821,10 @@ button.swiper-pagination-bullet {
   margin-right: 10px;
 }
 
+#testimonials .slide-review article .profile-box .img-wrap img {
+  width: 100%;
+}
+
 #testimonials .slide-review article .profile-box span {
   font-size: 14px;
   font-weight: 500;
