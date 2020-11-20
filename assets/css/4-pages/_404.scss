@@ -1,0 +1,43 @@
+.page404 {
+    .cl-effect-13 a:hover::before,
+    .cl-effect-13 a:focus::before {
+        color: $green;
+        text-shadow: 10px 0 $green, 20px 0 $green, 30px 0 $green, -10px 0 $green, -20px 0 $green, -30px 0 $green;
+    }
+    header{
+        nav{
+            ul{
+                li{
+                    a{
+                        color: $green;
+                        @include respond-to-max(1020){
+                            color: $white;
+                        }
+                        &:hover{
+                            color: $green;
+                            @include respond-to-max(1020){
+                                color: $white;
+                            }
+                        }
+                        &.btn{
+                            background: $green;
+                            color: $white;
+                            @include respond-to-max(1020){
+                                background: $white;
+                                color: $green;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #content-template{
+        padding: 80px 0;
+        height: auto;
+        @include respond-to-min(750){
+            padding: 180px 0;
+        }
+    }
+}
